@@ -1,0 +1,152 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    background-color: black;
+    font-size: 30px;
+    
+}
+.outbanner{
+    background-image: url("Netflix.jpg");
+    background-size: 1650px 750px;
+    background-repeat: no-repeat;
+
+}
+.banner{
+    padding: 5%;
+    height: 600px;
+    border-bottom: 5px solid tan;
+    background-color: rgba(0, 0, 0,0.7);
+}
+
+
+.nav span{
+    color: red;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    float: right;
+    background-color: red;
+}
+.description{
+    color: wheat;
+    margin-top: 0%;
+}
+.description > pre{
+    font-size: 25px;
+    text-align: center;
+}
+h2 > pre{
+    font-size: 60px;
+    text-align: center;
+}
+.description .inputs{
+   margin-left: 30%;
+}
+.inputs p{
+    font-size: 20px;
+}
+.description .inputs input{
+    height: 60px;
+}
+.description .inputs #submit{
+    background-color: red;
+    padding: 5px;
+    width: 170px;
+    height: 65px;
+}
+.form a{
+    background-color: red;
+    font-size: 40px;
+    margin-left: 0px;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 8px;
+}
+.services{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.tv,.phone,.kids,.every{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 5px solid rgb(175, 166, 154);
+}
+.phoneimg,.kidsimg{
+    order: 1;
+}
+.phonetext,.kidstext{
+    order: 2;
+}
+.tvimg img{
+    background: url("wink-smile.gif");
+    background-repeat: no-repeat;
+    background-position: 50px;
+    background-size: 300px;
+}
+.everyimg img{
+    background: url("bruce-lee.gif");
+    background-repeat: no-repeat;
+    background-position: 90px 50px;
+    background-size: 300px;
+    
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgb(175, 166, 154);
+
+}
+.faq a{
+    color:aliceblue;
+    margin-top: 0.5%;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: rgb(87, 82, 82);
+    width: 45%;
+}
+a span{
+    margin-right: 2%;
+    float:right;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.faq .inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.inputs input{
+    height: 40px;
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+.inputs #mail{
+    width: 400px;
+    color: black;
+    padding-left: 10px;
+}
+.inputs #submit{
+    background-color: red;
+    padding: 5px;
+    width: 170px;
+    height: 45px;
+}
+.footer{
+    font-size: 10px;
+}
